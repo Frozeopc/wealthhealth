@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap");
+
 
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   min-width: 320px;
   color: #333;
-  background-color: lightgrey;
+  background-color: rgb(143, 181, 88)
 }
 
 h1 {
@@ -28,7 +28,7 @@ a {
 
 .logo {
   font-size: 64px;
-  font-family: "Pacifico", cursive;
+  font-family:  cursive;
 }
 .header {
   display: flex;
