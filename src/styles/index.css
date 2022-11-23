@@ -32,7 +32,6 @@ a {
 }
 .header {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   width: 90%;
   margin: 60px;

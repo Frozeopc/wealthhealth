@@ -13,8 +13,8 @@ export default function Form() {
   const [lastName, setLastName] = useState("");
   const [birthDate, setBirthDate] = useState(new Date());
   const [startDate, setStartDate] = useState(new Date());
-  const [street, setCity] = useState("");
-  const [city, setStreet] = useState("");
+  const [street, setStreet] = useState("");
+  const [city, setCity] = useState("");
   const [zipCode, setZipCode] = useState("");
   const [ states, setStates] = useState("");
   const [department, setDepartment] = useState("");

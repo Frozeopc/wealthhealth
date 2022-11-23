@@ -8,13 +8,7 @@ import {
   usePagination,
 } from "react-table";
 
-/**
- * This component creates a search filter
- * @param {object} preGlobalFilteredRows
- * @param {*} globalFilter
- * @param {function} setGlobalFilter
- * @returns {JSX} react component
- */
+
 function GlobalFilter({
   preGlobalFilteredRows,
   globalFilter,
@@ -44,12 +38,7 @@ function GlobalFilter({
   );
 }
 
-/**
- * This component create a Tab
- * @param {object} columns
- * @param {object} data
- * @returns {JSX} react component
- */
+
 export default function Table({ columns, data }) {
   data = data[0];
 
